@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gimnasio</title>
+    <script src="https://kit.fontawesome.com/a2fd233b30.js" crossorigin="anonymous"></script>
+    <title>Fitness. - Inicio</title>
+    <meta name="description" content="Fitness es una página dedicada a la promoción de un estilo de vida saludable y activo. Ofrece una amplia variedad de información, consejos y recursos para ayudar a las personas a alcanzar sus objetivos de fitness, ya sea para mejorar su salud, perder peso o aumentar su fuerza y resistencia. Fitness también cuenta con una comunidad activa en línea donde los usuarios pueden compartir sus experiencias, hacer preguntas y recibir apoyo para mantenerse motivados en su camino hacia una vida más saludable.">
+    <meta name="keywords" content="Fitness, Gimnasio, Fuerza, Correr, Artes marciales, Ciclismo, Entrenar, Bajar peso">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/style.css">
 </head>
 <body>
     
@@ -24,35 +27,35 @@
                             <a class="nav-link" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cursos</a>
+                            <a class="nav-link" href="./pages/cursos.html">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Beneficios</a>
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                         </li>
-                        <!-- Ingresar / Registrarse -->
-                        <li class="nav-item login">
-                            <a class="nav-link" href="#">Ingresar</a>
-                        </li>
-                        <li class="nav-item registro">
-                            <a class="nav-link" href="#">Registro</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/comentarios.html">Comentarios</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-        <section id="hero">
+    </header>
+        
+        <!-- Hero -->
+    <main>
+        <section id="hero">                 
             <div class="container">
                 <div class="row">
                     <article class="col-lg-5">
                         <div class="cont-foto">
-                            <img src="img/hero.png" alt="hero">
+                            <img src="img/hero.png" alt="Hombre con pesas">
                         </div>
                     </article>
                     <article class="col-lg-7 cont-info">
+                        <img class="circlebg" src="img/hero2.png" alt="Circulo get start">
                         <h1>ES HORA <br><span>SER FITNES</span></h1>
                         <p>Bienvenido a nuestro gimnasio y centro de entrenamiento.<br>
                             Dolorido hoy, fuerte mañana. mejora tu condición física hoy.</p>
@@ -73,57 +76,13 @@
                 </div>
             </div>
         </section>
-    </header>
 
-    <main>
-        <section id="servicios">
-            <div class="container">
-                <h2>Nuestros Servicios</h2>
-                <p>Ve nuestros servicios!<br>
-                Mejor, Mas fuerte y mas preparado para el futuro.</p>
-                <div class="row">
-                    <article class="col-lg-3 col-md-6">             <!-- desktop 4 filas / tablet 2 filas (max 12) -->
-                        <div class="card-service">
-                            <img src="img/service1.png" alt="servicio 1">
-                            <h3>01</h3>
-                            <h4>Entrenamiento de fuerza</h4>
-                            <p>Ofrecemos máquinas de cuidado de la salud de la mejor calidad e instalaciones de ejercicios.</p>
-                            <a href="#">Leer mas</a>
-                        </div>
-                    </article>
-                    <article class="col-lg-3 col-md-6">             <!-- desktop 4 filas / tablet 2 filas (max 12) -->
-                        <div class="card-service">
-                            <img src="img/service2.png" alt="servicio 2">
-                            <h3>02</h3>
-                            <h4>Perder peso adicional</h4>
-                            <p>Brindamos atención médica de la mejor calidad, atendemos desde cualquier rango de edad.</p>
-                            <a href="#">Leer mas</a>
-                        </div>
-                    </article>
-                    <article class="col-lg-3 col-md-6">             <!-- desktop 4 filas / tablet 2 filas (max 12) -->
-                        <div class="card-service">
-                            <img src="img/service3.png" alt="servicio 3">
-                            <h3>03</h3>
-                            <h4>Cardio y Fuerza</h4>
-                            <p>Entrenamiento necesario e intensivo para prepararlos en los ejercicios de cardio y fuerza.</p>
-                            <a href="#">Leer mas</a>
-                        </div>
-                    </article>
-                    <article class="col-lg-3 col-md-6">             <!-- desktop 4 filas / tablet 2 filas (max 12) -->
-                        <div class="card-service">
-                            <img src="img/service4.png" alt="servicio 4">
-                            <h3>04</h3>
-                            <h4>Cardio y Fuerza</h4>
-                            <p>La moral es uno de los factores mas importantes a la hora de entrenar. <br> :)</p>
-                            <a href="#">Leer mas</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-    </main>
+        <!-- Footer -->
+        <footer>
+            <img src="img/logo.png" alt="Logo">
+            <p>© - Todos los derechos reservados 2022.</p>
+        </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
 </html>
